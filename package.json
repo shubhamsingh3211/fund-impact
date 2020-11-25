@@ -49,8 +49,8 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"buildCI": "CI= react-scripts build",
-		"testCI": "CI=true react-scripts test",
+		"buildCI": "react-scripts build",
+		"testCI": "react-scripts test",
 		"test": "react-scripts test --coverage=true ",
 		"eject": "react-scripts eject",
 		"extract": "formatjs extract",
